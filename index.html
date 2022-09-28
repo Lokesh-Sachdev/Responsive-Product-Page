@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="nav-offer">FREE DELIVERY ON ORDERS ABOVE Rs. 2000/-</div>
+    <section id="header">
+      <div id="mobile">
+        <img
+          src="./images/icon-hamburger.svg"
+          id="bar"
+          height="30px"
+          width="30px"
+        />
+      </div>
+
+      <a href="#">
+        <img src="./images/black_logo.png" class="logo" alt="" />
+      </a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="">Men</a></li>
+          <li><a href="">Women</a></li>
+          <li><a href="">Kids</a></li>
+          <li><a href="">Home & Living</a></li>
+
+          <a href="#" id="close" class="hidden">
+            <img src="./images/icons8-close-window-24.png" alt="" />
+          </a>
+        </ul>
+      </div>
+
+      <div>
+        <ul id="navbar-actions">
+          <li>
+            <a href=""><img src="./images/icons8-search.svg" alt="" /></a>
+          </li>
+          <li class="mob-hidden">
+            <a href=""
+              ><img src="./images/icon-profile.svg" height="25px" width="25px"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="./images/icon-cart.svg" height="40px" width="40px"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="product">
+      <div class="img-container">
+        <img src="./images/product-image-1.png" class="product-img" />
+        <img src="./images/product-image-2.png" class="product-img" />
+        <img src="./images/product-image-3.png" class="product-img" />
+        <img src="./images/product-image-1.png" class="product-img" />
+      </div>
+
+      <div class="mobile-img hidden">
+        <div class="main-img">
+          <img src="./images/product-image-1.png" class="main" />
+
+          <div class="small-img-group">
+            <div>
+              <img src="./images/product-image-2.png" class="small-img" />
+            </div>
+
+            <div>
+              <img src="./images/product-image-3.png" class="small-img" />
+            </div>
+
+            <div>
+              <img src="./images/product-image-1.png" class="small-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-details">
+        <div>
+          <h6 class="light">CLOTHING COMPANY</h6>
+          <h1>Ruffled Sleeveless Top</h1>
+        </div>
+        <div class="product-price">
+          <p class="light mrp">Rs. 1,500</p>
+          <p>Rs. 899</p>
+          <span>Sale</span>
+        </div>
+
+        <div class="size">
+          <p class="box-text light">Size</p>
+          <div class="size-boxes">
+            <div class="size-box-style">
+              <p class="size-text">S</p>
+            </div>
+            <div class="size-box-style">
+              <p class="size-text">M</p>
+            </div>
+            <div class="size-box-style">
+              <p class="size-text">L</p>
+            </div>
+            <div class="size-box-style">
+              <p class="size-text">XL</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class="light">Quantity</p>
+          <div id="quantity">
+            <span id="plus-btn">
+              <img src="./images/icons8-minus-16.png" />
+            </span>
+            <input id="numItems" type="number" value="1" min="1" />
+            <span id="minus-btn">
+              <img src="./images/icons8-plus-16.png" />
+            </span>
+          </div>
+        </div>
+
+        <div id="btn-container">
+          <button class="add-btn">Add to cart</button>
+          <button class="buy-btn">Buy it now</button>
+        </div>
+
+        <p>
+          A dreamy feminine piece, this top is made from a medium weight, ectra
+          soft cotton blend with a light airy feel and paper-like quality.
+        </p>
+
+        <p>
+          Designed with voluminous ruffled straps as well as ruffle details
+          across the chest, it has a straight cut fit and a square neckline.
+        </p>
+
+        <div id="extras">
+          <div>
+            <img src="./images/icon-materials.svg" />
+            <p>Materials</p>
+            <select></select>
+          </div>
+          <div>
+            <img src="./images/icon-shipping.svg" />
+
+            <p>Shipping & Returns</p>
+            <select></select>
+          </div>
+          <div>
+            <img src="./images/icon-dimensions.svg" />
+
+            <p>Dimensions</p>
+            <select></select>
+          </div>
+          <div>
+            <img src="./images/icon-care.svg" />
+
+            <p>Care Instructions</p>
+            <select></select>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
